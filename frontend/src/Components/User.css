@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.App1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand1 {
+  font-size: 1.5rem;
+  color: #00ffff;
+}
+
+.navbar-links1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links1 a,
+.navbar-links1 button {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem; /* Increase font size */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-links1 a:hover,
+.navbar-links1 button:hover {
+  transform: scale(1.2); /* Enlarge on hover */
+}
+
+.navbar-links1 a.active1,
+.navbar-links1 button.active1 {
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
+  transform: scale(1.2); /* Enlarge the active link */
+}
+
+.logout-button1 {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem; /* Match font size */
+  cursor: pointer;
+}
+
+.logout-button1:hover {
+  transform: scale(1.2); /* Enlarge on hover */
+}
+
+.section1 {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+.home-section1 {
+  position: relative;
+  background: url('../assets/img1.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-section1 .overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section1 .overlay1 p {
+  font-size: 2rem; /* Increased font size */
+  font-family: 'Times New Roman', serif; /* Change font to Times New Roman */
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px; /* Increase height */
+  background: rgba(0, 0, 0, 0.7); /* More transparency for the text background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 60%;
+}
+
+/* User.css */
+
+/* General styles */
+.App1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.App-header1 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-links1 a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navbar-links1 a.active1 {
+  border-bottom: 2px solid #fff;
+}
+
+.logout-button1 {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+//* User.css */
+
+/* Style for Profile section */
+.profile-section1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-details-container1 {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust the max-width as needed */
+  padding: 20px;
+}
+
+.profile-details-table1 {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.profile-details-table1 th, .profile-details-table1 td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.profile-details-table1 th {
+  background-color: #f4f4f4;
+}
+
+.profile-details-table1 td {
+  background-color: #fff;
+}
+
+.profile-section1 h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.plans-table1 {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.plans-table1 th,
+.plans-table1 td {
+  padding: 10px;
+  border: 1px solid #444;
+  color:white;
+}
+
+.plans-table1 th {
+  background-color: #333;
+  color: #00ffff;
+}
+
+.plans-table1 td {
+  background-color: #444;
+}
+
+.contact-section1 {
+  background-color: #333;
+  color: #ffffff; /* Set text color to white for better visibility */
+  padding: 20px;
+}
+
+.contact-details-table1 {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem; /* Increase font size for better readability */
+}
+
+.contact-details-table1 th,
+.contact-details-table1 td {
+  padding: 10px;
+  border: 1px solid #444; /* Border for table cells */
+}
+
+.contact-details-table1 th {
+  background-color: #444; /* Slightly darker background for headers */
+  color: #00ffff; /* Cyan color for header text */
+}
+
+.contact-details-table1 td {
+  background-color: #555; /* Darker background for data cells */
+  color: #ffffff; /* White color for text in data cells */
+}
+
+
+
+.feedback-section1 {
+  background-color: #444;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00ffff; /* Cyan color */
+}
+
+textarea {
+  font-size: 1.2rem; /* Increase font size */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.submit-button1 {
+  background-color: #00ffff; /* Cyan color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem; /* Increase font size */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.submit-button1:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+}
+
+.feedback-message1 {
+  font-size: 1.2rem; /* Increase font size */
+  color: white;
+  margin-top: 10px;
+}
